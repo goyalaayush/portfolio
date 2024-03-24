@@ -4,7 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaFacebook, FaTwitterSquare,FaInstagram } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
@@ -46,13 +46,13 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.facebook}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.leetcode}
               target='_blank'
@@ -61,11 +61,11 @@ function HeroSection() {
               <SiLeetcode size={30} />
             </Link>
             <Link
-              href={personalData.twitter}
+              href={personalData.instagram}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <FaTwitterSquare size={30} />
+              <FaInstagram size={30} />
             </Link>
           </div>
 
@@ -108,7 +108,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Aayush Goyal</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -124,15 +124,26 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NestJS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">NodeJS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">WebSockets</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">Prisma</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+                <span className="text-amber-300">Javascript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Typescript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Tailwind CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">NPM Packages</span>
+            
+                <span className="text-amber-300"></span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
+              
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
                 <span className="text-orange-400">true</span>

@@ -51,11 +51,13 @@ function ProjectCard({ project }) {
             }
             <span className="text-gray-400">{"],"}</span>
           </div>
+          {project?.demo && (
           <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">{project.role}</span>
+            
+            <span className="ml-4 lg:ml-8 mr-2 text-white">Demo:</span>
+            <a href={project.demo} target='_blank'><span className="text-orange-400">Click</span></a>
             <span className="text-gray-400">,</span>
-          </div>
+          </div>)}
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>

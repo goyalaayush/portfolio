@@ -1,6 +1,11 @@
 import * as adobeXd from '/public/svg/skills/adobe-xd.svg';
 import adobeaudition from '/public/svg/skills/adobeaudition.svg';
 import afterEffects from '/public/svg/skills/after-effects.svg';
+import jest from '/public/svg/skills/jest.svg'
+import node from '/public/svg/skills/node.svg'
+// import prima from '/public/svg/skills/prisma.svg'
+import prisma from '/public/svg/skills/prisma.svg'
+import npm from '/public/svg/skills/npm.svg'
 import angular from '/public/svg/skills/angular.svg';
 import aws from '/public/svg/skills/aws.svg';
 import azure from '/public/svg/skills/azure.svg';
@@ -225,6 +230,14 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'jest':
+      return jest;
+    case 'node.js':
+      return node;
+    case 'prisma':
+      return prisma;
+    case 'npm':
+      return npm;
     default:
       break;
   }

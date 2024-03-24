@@ -1,20 +1,23 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Bachelors Degree in Electronics and Computers Engineering",
+    score:"8.43 CGPA",
+    duration: "2019-2023",
+    institution: "Thapar Institute of Engineering & Technology, Patiala",
   },
   {
     id: 2,
     title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    score:"86.2%",
+    duration: "2017 - 2019",
+    institution: "Shri Usha Mata Public, Nabha",
   },
   {
     id: 3,
     title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    score:"10 CGPA",
+    duration: "2008 - 2017",
+    institution: "D.A.V. Cent. Public School, Nabha",
   }
 ]
